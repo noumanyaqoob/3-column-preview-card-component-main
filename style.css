@@ -1,0 +1,181 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.design1 {
+  /* border: 1px solid black; */
+  width: 18.8rem;
+  font-family: sans-serif;
+  color: #fff;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.paddy {
+  padding-left: 3rem;
+}
+
+#Sedans {
+  background-color: #e28525;
+  border-radius: 10px 0px 0px 10px;
+}
+#Luxury {
+  background-color: #00403f;
+  border-radius: 0px 10px 10px 0px;
+}
+#SUVs {
+  background-color: #016972;
+}
+.icon1 {
+  padding: 2.9rem 0rem;
+}
+
+.heading1 {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  letter-spacing: 0%;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.para1 {
+  width: 85%;
+  font-size: 1rem;
+  line-height: 1.7rem;
+  margin-bottom: 6rem;
+  color: rgb(233, 233, 235) !important;
+}
+
+.btn {
+  padding: 1.1rem 2.5rem;
+  border-radius: 2rem;
+  background-color: #fff;
+  font-weight: 600;
+  border: 0px;
+  margin-bottom: 3rem;
+}
+
+.btn-clr1 {
+  color: #e28525;
+  border: 2px solid #e28525;
+}
+.btn-clr1:hover{
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #e28525;
+}
+.btn-clr2 {
+  color: #016972;
+  border: 2px solid #016972;
+}
+.btn-clr2:hover{
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #016972;
+}
+.btn-clr3 {
+  color: #00403f;
+  border: 2px solid #00403f;
+}
+.btn-clr3:hover{
+    color: #fff;
+    border: 2px solid #fff;
+    background-color: #00403f;
+}
+
+@media screen and (max-width: 830px) {
+  .paddy {
+    padding-left: 2rem;
+  }
+}
+@media screen and (max-width: 777px) {
+  .paddy {
+    padding-left: 1rem;
+  }
+}
+@media screen and (max-width: 729px) {
+  .paddy {
+    padding-left: 0.5rem;
+  }
+}
+@media screen and (max-width: 705px) {
+  .paddy {
+    padding-left: 0.11rem;
+  }
+}
+@media screen and (max-width: 686px) {
+  .paddy {
+    padding-left: 0rem;
+  }
+}
+@media screen and (max-width: 682px) {
+  main {
+    height: 240vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .paddy {
+    padding-left: 3rem;
+  }
+  .design1 {
+    /* border: 1px solid black; */
+    width: 22rem;
+  }
+  #Sedans {
+    border-radius: 10px 10px 0px 0px;
+  }
+  #Luxury {
+    border-radius: 0px 0px 10px 10px;
+  }
+}
+@media screen and (max-width: 450px) {
+  main {
+    height: 180vh;
+  }
+  .design1 {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 400px) {
+  main {
+    height: 200vh;
+  }
+  .design1 {
+    width: 20rem;
+  }
+}
+@media screen and (max-width: 379px) {
+  main {
+    height: 220vh;
+  }
+  .design1 {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  main {
+    height: 270vh;
+  }
+  .design1 {
+    width: 16rem;
+  }
+}
